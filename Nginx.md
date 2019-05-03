@@ -6,11 +6,7 @@ systemctl start nginx
 systemctl enable nginx
 ```
 
-# Laravel config
-```
-mkdir -p /var/www/laravel
-```
-
+# Disable default
 ```
 vim /etc/nginx/nginx.conf
 ```
@@ -20,6 +16,11 @@ vim /etc/nginx/nginx.conf
 # listen       [::]:80 default_server;
 # server_name  _;
 # root         /usr/share/nginx/html;
+```
+
+# Laravel config
+```
+mkdir -p /var/www/laravel
 ```
 
 ```
@@ -57,6 +58,21 @@ server {
                 include fastcgi_params;
         }
 }
+```
+
+```
+nginx -t
+systemctl reload nginx
+systemctl restart nginx
+```
+
+# PhpMyAdmin config
+```
+vim /etc/nginx/conf.d/phpmyadmin.conf
+```
+
+```
+
 ```
 
 ```
