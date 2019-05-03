@@ -34,6 +34,7 @@ composer run-script "post-autoload-dump"
 npm install --production
 npm audit fix
 npm run prod
+chown -R nginx:nginx * .*
 php artisan storage:link
 chmod -R 755 storage
 mkdir storage/app/ssr
