@@ -5,7 +5,7 @@ sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.micros
 yum install -y code
 ```
 
-# Extensions
+# Extensions (none-root)
 ```
 code --install-extension austenc.laravel-blade-spacer
 code --install-extension bmewburn.vscode-intelephense-client
@@ -30,7 +30,7 @@ code --install-extension ylw1694.removeEmptyLines
 code --install-extension Zignd.html-css-class-completion
 ```
 
-# Themes
+# Themes (none-root)
 ```
 code --install-extension azemoh.one-monokai
 ```
