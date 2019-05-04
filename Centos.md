@@ -14,8 +14,8 @@ yum install -y wget vim htop
 
 # Ports
 ```
-firewall-cmd --permanent --zone=public --add-service=http
-firewall-cmd --permanent --zone=public --add-service=https
+firewall-cmd --permanent --add-service=http
+firewall-cmd --permanent --add-service=https
 firewall-cmd --reload
 ```
 
