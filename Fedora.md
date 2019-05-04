@@ -17,7 +17,6 @@ yum install -y gstreamer1 gstreamer1-devel gstreamer1-devel-docs gstreamer1-plug
 ```
 
 # Extension
-+ [DashToDock](https://extensions.gnome.org/extension/307/dash-to-dock/)
 + [Easyscreencast](https://extensions.gnome.org/extension/690/easyscreencast/)
 + [InternetSpeedMeter](https://extensions.gnome.org/extension/1461/internet-speed-meter/)
 + [PersianCalendar](https://extensions.gnome.org/extension/240/persian-calendar/)
